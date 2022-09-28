@@ -1,0 +1,31 @@
+/* Home page */
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('/content/images/Cloudy_back_ground.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homecontainer {
+    font-size: 20px;
+    font-family: monospace;
+    color: whitesmoke;
+    background-color: transparent;
+    display: inline-block;
+    padding: 15%;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 20px;
+
+}
+
+
+/*About Me Page */

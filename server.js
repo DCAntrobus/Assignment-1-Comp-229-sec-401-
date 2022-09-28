@@ -1,17 +1,19 @@
 import express from "express";
+import cookieParser from "cookie-parser";
 import logger from "morgan";
 import session from "express-session";
-
-import path, { dirname } from 'path';
+//ES Modules fix for __dirname
+import path, { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+//import configuration module
 import { Secret } from './config/config.js';
 
 
 // Routes
 import indexRouter from './app/routes/routes.server.js';
-import cookieParser from "cookie-parser";
+
 
 const app = express();
 
