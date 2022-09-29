@@ -20,12 +20,56 @@ html {
     background-color: transparent;
     display: inline-block;
     padding: 15%;
-    width: 100%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
     height: 100px;
     text-align: center;
     line-height: 20px;
 
 }
 
-
 /*About Me Page */
+.aboutContainer {
+    margin-top: 5%;
+    display: flex;
+    background-color: rgb(94, 94, 94);
+}
+
+.myPic {
+    border-radius: 250px;
+    margin-left: 5%;
+
+}
+
+
+
+/*Projects*/
+.projectscontainer {
+    font-size: 20px;
+    font-family: monospace;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.card-deck {
+    margin-top: 5%;
+}
+
+.card-body {
+    font-size: 15px;
+    color: black;
+}
+
+.card {
+    background-color: rgb(94, 94, 94);
+    display: inline-block;
+    margin: 2rem;
+
+}
+
+.card-img-top {
+    width: 400px;
+    height: 340px;
+}
