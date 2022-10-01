@@ -52,6 +52,7 @@ html {
     margin-top: 10%;
     margin-right: 15%;
     line-height: 32px;
+    font-size: 20px;
 
 }
 
@@ -69,9 +70,6 @@ html {
     margin-top: 5%;
     display: inline-block;
     width: 45vh;
-
-
-
 }
 
 .card-body {
@@ -79,19 +77,18 @@ html {
     color: whitesmoke;
 
 
-
 }
 
 .card {
     background-color: rgb(94, 94, 94);
     display: inline-block;
-    margin: 2rem;
+    margin: 6.2rem;
 
 }
 
 .card-img-top {
-    width: 400px;
-    height: 340px;
+    width: 500px;
+    height: 440px;
 }
 
 .card-text {
@@ -101,9 +98,13 @@ html {
 }
 
 /* Services Page*/
-.servicesContainer {}
+.servicesContainer {
+    font-family: monospace;
+    color: whitesmoke;
+    text-align: center;
+}
 
 .s-card-img-top {
-    width: 496px;
+    width: 500px;
     height: 340px;
 }
