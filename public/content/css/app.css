@@ -1,3 +1,9 @@
+/*Desmond Antrobus
+  300657388
+  Assignment 1
+  Oct/1/2020
+  */
+
 /* Home page */
 body,
 html {
@@ -34,27 +40,44 @@ html {
 .aboutContainer {
     margin-top: 5%;
     display: flex;
+    flex-direction: column;
+    padding: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
     background-color: rgb(94, 94, 94);
     font-family: monospace;
     color: whitesmoke;
+
+
 }
 
 .myPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 250px;
-    margin-left: 5%;
+    padding: 4px;
+    width: 400px;
+    height: 450px;
+    max-width: fit-content;
+
 
 }
 
+.blurb-Title {
+    text-align: center;
+}
 
 .blurb {
-    margin-left: 5%;
+    margin-top: 3%;
     color: whitesmoke;
-    margin-top: 10%;
-    margin-right: 15%;
     line-height: 32px;
     font-size: 20px;
+    margin-left: 5%;
 
 }
+
 
 
 
@@ -64,31 +87,36 @@ html {
     font-family: monospace;
     color: whitesmoke;
     text-align: center;
+
+
 }
 
 .card-deck {
     margin-top: 5%;
-    display: inline-block;
-    width: 45vh;
+
 }
 
 .card-body {
     font-size: 15px;
     color: whitesmoke;
 
-
 }
 
 .card {
     background-color: rgb(94, 94, 94);
-    display: inline-block;
-    margin: 6.2rem;
+    display: block;
+    margin: 2px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 
 .card-img-top {
     width: 500px;
     height: 440px;
+
 }
 
 .card-text {
@@ -107,4 +135,36 @@ html {
 .s-card-img-top {
     width: 500px;
     height: 340px;
+}
+
+/*Contact Page*/
+.contactContainer {
+    margin-top: 7%;
+    font-size: 20px;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    background-color: rgb(94, 94, 94);
+    font-family: monospace;
+    color: whitesmoke;
+    padding: 2%;
+    text-align: center;
+    line-height: 20px;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 75%;
+    height: 200px;
+
+
+}
+
+input {
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+
 }
