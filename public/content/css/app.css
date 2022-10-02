@@ -139,7 +139,7 @@ html {
 
 /*Contact Page*/
 .contactContainer {
-    margin-top: 7%;
+    margin-top: 5%;
     font-size: 20px;
     border: 2px solid black;
     width: 100%;
@@ -167,4 +167,12 @@ input {
     border: none;
     border-bottom: 2px solid black;
 
+}
+
+.links {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: auto;
 }
